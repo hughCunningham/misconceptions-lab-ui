@@ -46,6 +46,7 @@ import {LabOverviewComponent} from './layout/lab-overview/lab-overview.component
 import {HeaderComponent} from './layout/header/header.component';
 import {FooterComponent} from './layout/footer/footer.component';
 import {ConfigurationsComponent} from './configurations/configurations.component';
+import { RobotComponent } from './robot/robot.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +72,7 @@ import {ConfigurationsComponent} from './configurations/configurations.component
     HeaderComponent,
     FooterComponent,
     ConfigurationsComponent,
+    RobotComponent,
   ],
   imports: [
     BrowserModule,
